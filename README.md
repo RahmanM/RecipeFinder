@@ -12,4 +12,4 @@ A responsive HTML 5 page using Bootstrap, SASS, CSS 3 and media query to resize 
 
 
 # Small Screen:
-![small screen image](/medium-size-screen.png)
+![small screen image](/small-size-screen.png)
