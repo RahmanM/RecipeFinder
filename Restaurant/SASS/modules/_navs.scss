@@ -1,0 +1,38 @@
+@import '_variables.scss';
+
+.header {
+    color: white;
+    background-color: $primary-color;
+    color: white;
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-logo {
+        font-size: 45px;
+    }
+
+    .nav-menu {
+        font-size: 20px;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+@import '../base/_variables.scss';
+
+/* footer */
+.footer {
+    background-color: $primary-bg-color;
+    color: white;
+    padding-top: 30px;
+    
+    ul{
+        list-style: none;
+    }
+    
+    .colophon{
+        color: #7C1948;
+    }
+    
+}

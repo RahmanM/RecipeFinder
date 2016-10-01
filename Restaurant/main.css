@@ -1,0 +1,307 @@
+/* colors */
+/* font sizes */
+/* Ceter bootstrap odd columns */
+/* line 2, D:/rahman/Restaurant/sass/base/_normalize.scss */
+.row-centered {
+  text-align: center;
+}
+
+/* line 6, D:/rahman/Restaurant/sass/base/_normalize.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+/* colors */
+/* font sizes */
+/* line 3, D:/rahman/Restaurant/sass/layouts/_header.scss */
+.main-menu {
+  font-size: 18px;
+  color: #720435;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* body*/
+/* line 3, D:/rahman/Restaurant/sass/layouts/_body.scss */
+.content {
+  background-image: url("images/bgmain.gif");
+}
+
+/* line 7, D:/rahman/Restaurant/sass/layouts/_body.scss */
+.center-global {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* colors */
+/* font sizes */
+/* footer */
+/* line 4, D:/rahman/Restaurant/sass/layouts/_footer.scss */
+.footer {
+  background-color: #42031E;
+  color: white;
+  padding-top: 30px;
+}
+
+/* line 9, D:/rahman/Restaurant/sass/layouts/_footer.scss */
+.footer ul {
+  list-style: none;
+}
+
+/* line 13, D:/rahman/Restaurant/sass/layouts/_footer.scss */
+.footer .colophon {
+  color: #7C1948;
+}
+
+/* typography elements */
+/* grid variables */
+/* off canvas variables */
+/* media query breakpoints */
+/* default border radius */
+/* form colors */
+/* default button colors */
+/* default button values */
+/* default button classes */
+/* In medium sizes increase the height */
+@media screen and (max-width: 920px) {
+  /* line 5, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header {
+    height: 145px;
+  }
+  /* line 7, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header .nav-logo {
+    font-size: 45px;
+    text-align: center;
+  }
+  /* line 12, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header .nav-menu {
+    text-align: center;
+  }
+  /* line 15, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header .nav-menu ul {
+    display: inline-block;
+  }
+  /* line 19, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header .nav-menu li {
+    display: inline-block;
+  }
+}
+
+/*In screen size small increase the height and decrease the font size. */
+@media screen and (max-width: 768px) {
+  /* line 28, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header {
+    height: 220px;
+    text-align: center;
+  }
+  /* line 33, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header .nav-menu li {
+    float: none;
+  }
+  /* line 37, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header .nav-menu li a {
+    display: inline;
+  }
+  /* line 42, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .header .recipes {
+    font-size: 60%;
+  }
+}
+
+/* In big sizes ceter the content and fix the size to 1020 */
+@media screen and (min-width: 1200px) {
+  /* line 51, D:/rahman/Restaurant/sass/layouts/_layouts.scss */
+  .content {
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+}
+
+/* colors */
+/* font sizes */
+@font-face {
+  font-family: 'ChelseaMarket';
+  src: url("fonts/chelseamarket-regular-webfont.eot");
+  src: url("fonts/chelseamarket-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/chelseamarket-regular-webfont.woff") format("woff"), url("fonts/chelseamarket-regular-webfont.ttf") format("truetype"), url("fonts/chelseamarket-regular-webfont.svg#chelsea_marketregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url("fonts/lato-bold-webfont.eot");
+  src: url("fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-bold-webfont.woff") format("woff"), url("fonts/lato-bold-webfont.ttf") format("truetype"), url("fonts/lato-bold-webfont.svg#latobold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato-regular-webfont.eot");
+  src: url("fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/lato-regular-webfont.woff") format("woff"), url("fonts/lato-regular-webfont.ttf") format("truetype"), url("fonts/lato-regular-webfont.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 36, D:/rahman/Restaurant/sass/modules/_typography.scss */
+h1, h2 {
+  font-family: ChelseaMarket, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #720435;
+}
+
+/* line 43, D:/rahman/Restaurant/sass/modules/_typography.scss */
+h1 {
+  font-size: 2.5em;
+  margin: 0.67em 0;
+}
+
+/* colors */
+/* font sizes */
+/* line 4, D:/rahman/Restaurant/sass/modules/_blocks.scss */
+.block-centre {
+  text-align: center;
+}
+
+/* colors */
+/* font sizes */
+/* featured food */
+/* line 5, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.featured-food {
+  padding: 0px;
+  border-bottom: solid 5px #720435;
+  box-shadow: 0px 10px 5px #720435;
+  margin-bottom: 20px;
+}
+
+/* latest recipes */
+/* line 15, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.latest-recipes .recipe {
+  margin-bottom: 25px;
+}
+
+/* line 19, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.latest-recipes .recipe-img {
+  border: solid 10px white;
+  box-shadow: 0px 2px 5px grey;
+}
+
+/* line 24, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.latest-recipes h2 {
+  color: black;
+  font-family: LatoBold, Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+/* line 30, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.latest-recipes p {
+  color: #7B6047;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* line 38, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.latest-recipes .minutes {
+  font-size: 1.5em;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+/* line 44, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.latest-recipes .rating {
+  padding: 0px;
+  font-size: 14px;
+  color: #720435;
+}
+
+/* line 50, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.latest-recipes .popular {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* tweets */
+/* line 59, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.yummy-tweets .tweets {
+  margin-bottom: 15px;
+}
+
+/* line 62, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.yummy-tweets .tweet-image {
+  padding: 0px;
+  border: 0px;
+}
+
+/* line 67, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.yummy-tweets .at {
+  color: #720435;
+}
+
+/* line 71, D:/rahman/Restaurant/sass/modules/_sections.scss */
+.yummy-tweets .timespan {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 14px;
+  color: #767676;
+}
+
+/* typography elements */
+/* grid variables */
+/* off canvas variables */
+/* media query breakpoints */
+/* default border radius */
+/* form colors */
+/* default button colors */
+/* default button values */
+/* default button classes */
+/* line 3, D:/rahman/Restaurant/sass/modules/_navs.scss */
+.header {
+  color: white;
+  background-color: #720435;
+  color: white;
+}
+
+/* line 8, D:/rahman/Restaurant/sass/modules/_navs.scss */
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 13, D:/rahman/Restaurant/sass/modules/_navs.scss */
+.header .nav-logo {
+  font-size: 45px;
+}
+
+/* line 17, D:/rahman/Restaurant/sass/modules/_navs.scss */
+.header .nav-menu {
+  font-size: 20px;
+}
+
+/* line 20, D:/rahman/Restaurant/sass/modules/_navs.scss */
+.header .nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 27, D:/rahman/Restaurant/sass/modules/_navs.scss */
+.header .nav-menu li {
+  float: left;
+}
+
+/* line 31, D:/rahman/Restaurant/sass/modules/_navs.scss */
+.header .nav-menu li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=../main.map */

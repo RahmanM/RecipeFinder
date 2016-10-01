@@ -1,0 +1,55 @@
+@import '_variables.scss';
+
+/* In medium sizes increase the height */
+@media screen and (max-width: 920px) {
+    .header {
+        height: 145px;
+        .nav-logo {
+            font-size: 45px;
+            text-align: center;
+        }
+
+        .nav-menu {
+            text-align: center;
+
+            ul{
+                display: inline-block;
+            }
+
+            li {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+/*In screen size small increase the height and decrease the font size. */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 220px;
+        text-align: center; 
+
+        .nav-menu {
+            li {
+                float: none;
+            }
+
+            li a {
+                display: inline;
+            }
+        }
+        
+        .recipes{
+            font-size: 60%;
+
+        }
+    }
+}
+
+/* In big sizes ceter the content and fix the size to 1020 */
+@media screen and (min-width: 1200px)  { 
+    .content {
+        max-width: 1020px;
+        margin: 0 auto;
+    }
+}

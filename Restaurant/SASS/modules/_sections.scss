@@ -1,0 +1,77 @@
+@import '../base/_variables.scss';
+
+/* featured food */
+
+.featured-food{
+    padding: 0px;
+    border-bottom: solid 5px $primary-color;
+    box-shadow: 0px 10px 5px $primary-color;
+    margin-bottom: 20px;
+}
+
+/* latest recipes */
+
+.latest-recipes{
+    .recipe{
+        margin-bottom: 25px;
+    }
+
+    .recipe-img{
+        border: solid 10px white;
+        box-shadow: 0px 2px 5px grey;
+    }
+
+    h2{
+        color: black;
+        font-family: LatoBold, Arial, Helvetica, sans-serif;
+        display: block;
+    }
+
+    p{
+        color: #7B6047;
+        font-family: Lato, Arial, Helvetica, sans-serif;
+        font-size: $font-big;
+        text-transform: uppercase;
+    }
+
+
+    .minutes{
+        font-size: 1.5em;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .rating{
+        padding: 0px;
+        font-size: $font-small;
+        color: $primary-color;
+    }
+    
+    .popular{
+        margin-bottom: 15px;
+        font-size: $font-big;
+    }
+}
+
+/* tweets */
+
+.yummy-tweets{
+    .tweets{
+        margin-bottom: 15px;
+    }
+    .tweet-image{
+        padding: 0px;
+        border: 0px;
+    }
+    
+    .at{
+        color: $primary-color;
+    }
+    
+    .timespan{
+        margin-top: 10px;
+        font-style: italic;
+        font-size: $font-small;
+        color: darken(darkgrey, 20%);
+    }
+}
